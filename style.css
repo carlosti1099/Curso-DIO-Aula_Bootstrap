@@ -3,11 +3,17 @@ body {
 }
 
 .navbar {
-   background-color: rgb(48, 185, 185); 
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.nav-link {
+    color: white !important;
 }
 
 .quem-somos {
-    background-color: #8181f7;
+    background-image: linear-gradient( 359deg,  rgba(150,192,255,1) -17.7%, rgb(192, 163, 155) 101.5% );
+}
+
+.quem-somos h3 {
     color: white;
 }
 
@@ -17,10 +23,38 @@ body {
 }
 
 .parceiros {
-    background-color: #98b4bb;
-    color: white;
+    background-image: radial-gradient( circle farthest-corner at 11.4% 45%, rgba(248,248,248,1) 36.7%, rgba(217,221,224,1) 100.2% );
 }
 
 .parceiros img {
+    width: 200px;
+}
+
+/*personalizando img*/
+.carrefour img {
+    border-radius: 15px 50px 30px;
+}
+
+.parceiros, .servicos img {
     width: 100%;
+}
+
+.bg-footer {
+    color: white;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+/*Cores icones footer*/
+.linkedin {
+    background-color: #0d6efd;
+    color: white;
+    font-size: 30px;
+    border-radius: 10%;
+  }
+
+.github {
+    background-color: #000;
+    color: white;
+    font-size: 30px;
+    border-radius: 10%;
 }
